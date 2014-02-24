@@ -1,0 +1,24 @@
+pyramid==1.4.5
+paste
+pyramid_chameleon
+mysql-python
+SQLAlchemy==0.9.2
+transaction
+pyramid_tm
+pyramid_debugtoolbar
+zope.sqlalchemy
+waitress
+simplejson
+mailchimp
+python-slugify
+heroku
+python-dateutil==1.5
+facebook-sdk
+twython
+python-instagram
+colander==1.0b1
+cryptacular
+jsonpatch
+json_tools
+boto
+-e git://github.com/joestump/python-transloadit.git#egg=transloadit

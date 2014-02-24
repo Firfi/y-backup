@@ -1,0 +1,64 @@
+﻿{
+  "pages":[
+       
+           
+    // This is $page
+    {
+      "content":[
+        {
+          "content":{ // rename into "media"?
+            "url":"http://example.com/test.mpeg",
+            "width": 400
+          },
+          "meta":{
+            "type":"movie"
+          }
+        }
+      ],
+      "meta":{
+        "title":"A great movie I like"
+      }
+    },
+    
+    
+    
+    
+    {
+      "content":[
+        {
+          "content":{
+            "url":"test.jpg"
+          },
+          "meta":{
+            "type":"image"
+          }
+        }
+      ],
+      "meta":{
+        "title":"Screenshot Neo in the movie 'Matrix'"
+      }
+    }
+  ],
+  "meta":{
+    "yarnid":"a-list-of-movies-i-like",
+    "userid":"simon",
+    "author":"Simon",
+    "created":1234678,
+    "modified":1234678
+  },
+  "cover":{
+    "content":[
+      {
+        "content":{
+          "url":"test.jpg"
+        },
+        "meta":{
+          "type":"image"
+        }
+      }
+    ],
+    "meta":{
+      "title":"A list of movies I like"
+    }
+  }
+}

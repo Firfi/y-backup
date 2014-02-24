@@ -1,0 +1,13 @@
+Install Python
+Install Pyramid (http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/install.html#installing-pyramid-on-a-windows-system)
+
+cd DankeGames\yarnee.pyramid
+\Python27\Scripts\virtualenv.exe --no-site-packages env (env gets installed in a env folder within yarnee.pyramid)
+cd env/Scripts/activate.bat (opens a shell whitin env)
+
+cd DankeGames\yarnee.pyramid
+python setup.py build
+python setup.py develop
+
+cd DankeGames\yarnee.pyramid 
+python runapp.py
